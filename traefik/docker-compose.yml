@@ -23,7 +23,7 @@ services:
       - proxy
     labels:
       - traefik.enable=true
-      - traefik.http.routers.traefik.rule=Host(`traefik.net.djenkoit.fr`)
+      - traefik.http.routers.traefik.rule=Host(`traefik.bunk.djenkoit.fr`)
       - traefik.http.routers.traefik.entrypoints=websecure
       - traefik.http.routers.traefik.tls.certresolver=letsencrypt
 
